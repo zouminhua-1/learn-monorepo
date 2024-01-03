@@ -1,0 +1,24 @@
+{
+  "name": "@MyVue/shared",
+  "buildOptions": {
+    "name": "VueShared",
+    "formats": [
+      "esm",
+      "cjs"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "@MyVue/shared",
+  "main": "index.js",                 // UMD规范导出
+  "module": "dist/reactivity.esm.js", // ESM规范导出
+  "unpkg": "dist/reactivity.js",       // UMD规范配合CDN
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

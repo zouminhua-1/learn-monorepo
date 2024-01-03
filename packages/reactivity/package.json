@@ -1,0 +1,23 @@
+{
+  "name": "@MyVue/reactivity",
+  "buildOptions": {
+    "name": "VueReactivity",
+    "formats": [
+      "esm",
+      "cjs",
+      "umd"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "@MyVue/reactivity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@MyVue/shared": "workspace:^"
+  }
+}
